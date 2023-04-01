@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maia Gutierrez">
+    <meta name="description" content="Showcasing your unique story through purposeful, authentic design. Welcome to my portfolio!">
+    <meta name="keywords" content="design, ux, web design, web developement, designer, developer, front-end developer, html, css, javascript, portfolio, work, ux design, web, branding, brand design, brand developer, artist, creator, resume">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/rlf5upn.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="my_favicon_32x32.png">
+    <!--Links-->
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+    <title>UX Web Design & Development | Brand Design Portfolio</title>
+</head>
+<body onload="myFunction()">
+    <a id="skip" href="#main-content"> Skip to Main Content</a>
+    <header>
+        <img id="logo" src="logo.png" alt="Designer's personally designed logo featuring artists initials in a stylized manner and name in branded font.">
+        <nav>
+            <ul id="menu">
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#contact">GET IN TOUCH</a></li>
+            </ul>
+        </nav>
+        <h1>UX Web Design & Development | Brand Design</h1>
+        <p>Showcasing your unique story through purposeful, authentic design.</p>
+    </header>
+    <main>
+    <!-- Portfolio Section - JavaScript -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div id="mySidepanel" class="sidepanel">
+                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; </a> -->
+                <button class="item" id="earthButton">Earth Hands Website</button>
+                <button class="item" id="gemaButton">Gema Website Redesign</button>
+                <button class="item" id="cswButton">Claire Sinagra Website</button>
+                <button class="item" id="catalystButton">Catalyst Creative Brief</button>
+                <button class="item" id="endlessButton">Endless Summer Poster</button>
+            </div>
+            <!-- <button class="openbtn" onclick="openNav()">&#9776; Select Project</button> -->
+            <div id="display">
+                <section class="portfolioItems" id="earthHands">
+                    <img src="earthHands.png" alt="The about section of the Earth Hands Ceramics website.">
+                        <h3>Earth Hands Website</h3>
+                        <p>This is a single-page website designed and developed for a potter, using semantic HTML, CSS, and JavaScript. 
+                            The more technical focus was to implement certain JavaScript functions including light/dark mode, a contact 
+                            form that returns the user's responses and/or errors, a number matching game, and a single item display section. 
+                            More personally, I wanted the website to be cohesive and personality driven, as seen in the colors of clay and the fonts. </p>
+                        <a href="https://www.behance.net/gallery/158324819/Earth-Hands-Website/modules/893283959" target="_blank" class="viewbtn">View Project</a>
+                </section>
+                <section class="portfolioItems" id="gemaRedesign">
+                    <img src="gemaWebsite.jpg" alt="The re-designed menu page for Gema Restaurant in San Clemente California at desktop size.">
+                    <h3>Gema Website Redesign</h3>
+                    <p>This is a full multipage responsive website re-design including pre- and post-production 
+                        processes. The first steps included a project brief, mood board, and clarified branding. 
+                        From there, the website pages and a sitemap were sketched out. Then the designs were 
+                        prototyped in Figma. The intention of the redesign was to make the website more user-
+                        focused, accessible, usable, and professional, thus better reaching and drawing in the 
+                        restaurant's intended “audience”.</p>
+                    <a href="https://www.behance.net/gallery/164816647/Gema-Website-Re-design/modules/929525495" target="_blank" class="viewbtn">View Project</a>
+                </section>
+                <section class="portfolioItems" id="csWebsite">
+                    <img src="clairSinagra.jpg" alt="Screen capture of part of Clair Sinagra's responsive website at desktop size."> 
+                    <h3>Claire Sinagra Website</h3>
+                    <p>This is a fully responsive single-page website made for a children's author, which was 
+                        created using HTML and CSS to match wireframes that were provided (the text was also provided). 
+                        In addition to showing ability with semantic and responsive HTML and CSS, the site features SEO 
+                        building through keywords, meta tags, linking, and twitter cards. </p>
+                    <a href="https://www.behance.net/gallery/153861693/Claire-Sinagra-Front-End-Web-Development/modules/868252073" target="_blank" class="viewbtn">View Project</a>
+                </section>
+                <section class="portfolioItems" id="catalystBrief">
+                    <img src="catalystBrief.jpg" alt="Image of a Creative Brief document.">
+                        <h3>Catalyst Creative Brief</h3>
+                        <p>This is a creative brief made for a video bumper / stinger commissioned by PBS Arizona's 
+                            show Catalyst; a good example of a thorough and organized pre-production process step. 
+                            It is two pages long and is intended to outline what is required for the project, to portray 
+                            the tone and mission of the project and client, and to share branding guidelines such as fonts and colors. 
+                            A creative brief is used as a point of reference while working on a project and can also 
+                            be applied as a sort of contract between the designer and the client.</p>
+                        <a href="https://www.dropbox.com/s/a6bf27andn0w7cq/Catalyst%20Creative%20Brief?dl=1" class="viewbtn">View Project</a>
+                </section>
+                <section class="portfolioItems" id="endlessSummer">
+                    <img src="endlessSummer.jpg" alt="Colorful Endless Summer Music Festival poster.">
+                        <h3>Endless Summer Poster</h3>
+                        <p>Created solely in Adobe Illustrator for a music festival called Endless Summer, this poster 
+                            was designed with the intention to promote the festival in a way that arouses nostalgia 
+                            for those summer days and nights wherein people make memories that last a lifetime. Designed 
+                            for print, the color space used was CMYK, the dimensions are 11x17” and the resolution of 
+                            the document is 300ppi. </p>
+                        <a href="https://www.dropbox.com/s/dq2nhoaaj4uy07z/Endless%20Summer%20Music%20Festival%20Poster.ai?dl=1" class="viewbtn">View Project</a>
+                </section>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi there!</p>
+            <p>My name's Maia. I'm an artist in many forms of the word: a songwriter, 
+                singer, and painter, to name a few; and recently, I've worked 
+                to take my passion and creativity further as I focus professionally on what I call "practical art"...
+                font-end web design and development, and branding.</p>
+            <p>I recently graduated from Arizona State University, where I earned my 
+                bachelor's degree in Graphic Information Technology 100% remotely, with honors,
+                through their accelerated online program! I'm meticulous, empathetic, and eager to learn and grow through
+                the things I don't know (hey, that rhymed!).</p>
+            <p>I think outside the box and run with the ideas that evoke emotion. 
+                I hope to use design to inspire others and authentically share the unique 
+                stories of those who partner with me.</p>
+            <p>I'm a passionate soul, plant mama, wellness enthusiast, and wife to a chef, 
+                who hails from a buzzing surf town in Southern California. So, if you ever 
+                lose me, I'm probably “knee deep in the water somewhere,” soaking in 
+                the negative ions, enjoying the salty air and sunshine, sourcing inspiration 
+                for my next project.</p>
+            <img src="beach_portrait.jpg" alt="Image of Maia Gutierrez, at the harbor, leaning on a railing.">
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="myForm">
+                <h3>Talk to me...</h3>
+                <div id="form-group1">
+                    <label for="fullName">Name<span class="required">*</span></label>
+                    <input type="text" name="name" id="fullName" autocomplete="given-name" placeholder="First and Last Name" required>
+
+                    <label for="email">Email Address<span class="required">*</span></label>
+                    <input type="email" name="email" id="email"> 
+
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+                <div id="form-group2">
+                    <label for="myMessage">Message<span class="required">*</span></label>
+                    <textarea id="myMessage"></textarea>
+                    <div id="success"></div>
+                </div>
+                <div id="formErrors"></div>
+                <input type="submit" name="mySubmit" id="mySubmit" value="Submit">
+            </form>
+            <section id="resume">
+                <h3>Resumé</h3>
+            </section>
+            <section id="social"> 
+                <h3>Social</h3>
+                <div id="socialLinks">
+                    <a href="https://www.behance.net/maiagutierrez" target="_blank"><img src="behance-svgrepo-com.svg" alt="behance icon"></a>
+                    <a href="https://www.linkedin.com/in/maia-gutierrez-b35709220/" target="_blank"><img src="linkedin-svgrepo-com.svg" alt="linkedin icon"></a>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Maia Gutierrez <br> All rights reserved.</p>
+    </footer>
+</body>
+</html>
