@@ -26,6 +26,11 @@ earthBtn.addEventListener("click", function(){
     displayItem(event, 'earthHands');
 });
 
+let aliveBtn = document.getElementById("aliveButton");
+aliveBtn.addEventListener("click", function(){
+    displayItem(event, 'alive');
+});
+
 let gemaBtn = document.getElementById("gemaButton");
 gemaBtn.addEventListener("click", function(){
     displayItem(event, 'gemaRedesign');
