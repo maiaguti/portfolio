@@ -307,7 +307,7 @@ h3 {
 #contact h3 {
     padding-top: .5em;
 }
-
+/* 
 form {
     padding-left: 3.5em;
     display: block;
@@ -369,7 +369,7 @@ label[for='choosePhone'], label[for='chooseEmail'] {
     margin-top: 1em;
     width: 5.5em;
     height: 2em;
-}
+} */
 
 #contact h3 {
     text-align: center;
