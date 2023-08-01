@@ -313,7 +313,7 @@ h3 {
     padding-bottom: 1.5em;
 }
 
-#email a {
+#email p {
     text-decoration: none;
     color: var(--light-pink);
     font-size: 1.4em;
