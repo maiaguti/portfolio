@@ -149,6 +149,10 @@ h3 {
     max-width: 700px;
 }
 
+#removeColor {
+    background-color: none;
+}
+
 #portfolio h3, #portfolio p {
     margin-left: 16px;
     margin-right: 16px;
