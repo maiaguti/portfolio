@@ -181,7 +181,7 @@ h3 {
     font-size: inherit;
 }
 
-#removeColor:visited {
+#removeColor a:visited {
     color: var(--light-pink);
 }
 
