@@ -37,7 +37,7 @@ gemaBtn.addEventListener("click", function(){
 });
 
 let pinterestBtn = document.getElementById("pinterestButton");
-gemaBtn.addEventListener("click", function(){
+pinterestBtn.addEventListener("click", function(){
     displayItem(event, 'pinterestGIF');
 });
 
