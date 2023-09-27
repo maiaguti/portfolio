@@ -150,7 +150,8 @@ h3 {
 }
 
 #pinterestGIF img {
-    max-height: 600px;
+    max-width: 401px;
+    max-height: 750px;
 }
 
 #portfolio h3, #portfolio p {
