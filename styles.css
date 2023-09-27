@@ -149,10 +149,6 @@ h3 {
     max-width: 700px;
 }
 
-#removeColor {
-    background-color: none;
-}
-
 #portfolio h3, #portfolio p {
     margin-left: 16px;
     margin-right: 16px;
@@ -172,6 +168,10 @@ h3 {
     text-decoration: none;
     font-size: 1.2em;
     text-align: center;
+}
+
+#portfolio #removeColor a {
+    background-color: none;
 }
 
 #portfolio section a:hover {
