@@ -159,7 +159,7 @@ h3 {
     line-height: 1.2;
 }
 
-#portfolio section a {
+.viewbtn {
     margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -170,9 +170,6 @@ h3 {
     text-align: center;
 }
 
-#portfolio #removeColor a {
-    background-color: none;
-}
 
 #portfolio section a:hover {
     background-color: var(--blue);
