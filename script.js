@@ -36,6 +36,11 @@ gemaBtn.addEventListener("click", function(){
     displayItem(event, 'gemaRedesign');
 });
 
+let pinterestBtn = document.getElementById("pinterestButton");
+gemaBtn.addEventListener("click", function(){
+    displayItem(event, 'pinterestGIF');
+});
+
 let cswBtn = document.getElementById("cswButton");
 cswBtn.addEventListener("click", function(){
     displayItem(event, 'csWebsite');
