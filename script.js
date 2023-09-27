@@ -15,7 +15,7 @@ function displayItem(evt, itemName) { // function that loops through the shop se
         item[i].className = item[i].className.replace("active", "");
     }
     document.getElementById(itemName).style.display = "grid"; // displays the sections as a grid
-    evt.currentTarget.className += " active";
+    evt.currentTarget.className += "active";
 
     // closeNav();  // closes side panel when someone selects a project to view
 }
