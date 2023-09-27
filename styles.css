@@ -177,6 +177,12 @@ h3 {
 
 #removeColor {
     background-color: none;
+    text-decoration: underline;
+    font-size: inherit;
+}
+
+#removeColor:visited {
+    color: var(--light-pink);
 }
 
 #portfolio section a:hover {
