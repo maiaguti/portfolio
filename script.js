@@ -41,10 +41,10 @@ pinterestBtn.addEventListener("click", function(){
     displayItem(event, 'pinterestGIF');
 });
 
-let cswBtn = document.getElementById("cswButton");
-cswBtn.addEventListener("click", function(){
-    displayItem(event, 'csWebsite');
-});
+// let cswBtn = document.getElementById("cswButton");
+// cswBtn.addEventListener("click", function(){
+//     displayItem(event, 'csWebsite');
+// });
 
 let catalystBtn = document.getElementById("catalystButton");
 catalystBtn.addEventListener("click", function(){
